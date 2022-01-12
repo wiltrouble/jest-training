@@ -21,3 +21,10 @@ export const diamond2 = n => {
   }
   return diam;
 }
+
+export function repeat(str,x){return Array(x+1).join(str); }
+export function line(spaces,stars){ return repeat(" ",spaces)+repeat("*",stars)+"\n"; }
+
+export const diamond3 = n => {
+
+}
