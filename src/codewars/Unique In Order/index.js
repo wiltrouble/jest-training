@@ -40,7 +40,7 @@ export const uniqueInOrder4 = iterable => {
   return res;
 }
 
-export const uniqueInOrder4 = iterable => {
+export const uniqueInOrder5 = iterable => {
   var result = []
   for (let i = 0; i < iterable.length; i++) {
     if (iterable[i-1] === undifined || iterable[i-1] !== iterable[i]) {
@@ -50,4 +50,4 @@ export const uniqueInOrder4 = iterable => {
   return result;
 }
 
-const uniqueInOrder5 = d => [...d].filter((x, i, a) => a != a[i + 1])
+const uniqueInOrder6 = d => [...d].filter((x, i, a) => a != a[i + 1])
